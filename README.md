@@ -10,7 +10,7 @@ $ npm i coils-udp -S
 
 Coils application constructor
 ```
-let CoilsUdp = require('../index')
+let CoilsUdp = require('coils-udp')
 this.use(CoilsUdp)
 this._udp.startUdp({
 	PORT: 3000,

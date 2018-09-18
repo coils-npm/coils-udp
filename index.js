@@ -13,7 +13,8 @@ class CoilsUdp {
 		this.application = application
 	}
 	
-	startUdp ({PORT, onError, onListening, onMessage} = options = {}) {
+	startUdp ({PORT, onError, onListening, onMessage}) {
+		PORT = PORT || this.application.PORT
 		server.on('error', (err) => {
 			if (onError) {
 				onError(err)

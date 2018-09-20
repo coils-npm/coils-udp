@@ -25,6 +25,8 @@ this._udp.startUdp({
 
 - sendText
 - sendBuffer
+- sendObject
+- sendPing
 
 ### Message
 

@@ -1,4 +1,4 @@
-let CoilsUdp = require('../index')
+let CoilsUdp = require('../lib/index')
 let application = {}
 CoilsUdp.mounted(application)
 application._udp.startUdp({
